@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<!-- 윈도(브라우저) 도큐멘트(html) 헤드 바디  -->
+<!-- 난이도 칠성몰(꼭연습하세요) < cj < 11st   -->
+<!-- 1.html뼈대작업 2.자바스크립트 돌리는 작업(loop,pagination,navigation,autoplay 정도까지) 3. css 짜는 작업 4. : 스와이퍼를 돌리면 없던 객체가 나타난다 예를들면 부트스트랩 버튼 등 그래서 요소검사 후 css 짠다. -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경처리백그라운드슬라이드와텍스트가튀어나오는</title>
+
+    <!-- 8,9,10.  파비콘, SEO최적화, 구글 애널리스틱광고추적기-->
+
+    <!-- 7.폰트자리 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- 6.초기화 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+
+    <!-- 5. 부트스트랩 -->
+
+    <!-- 4. 플러그인 자리 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- 3. 내꺼 링크 -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- 2. 가벼운 바닐라js script -->
+
+    <!-- 1. 무거운 jquery script 예; web.js($어쩌구) jquery.js(https://code.jquery.com/jquery-2.2.4.js 복붙) -->
+    <script src="./js/swiper.js"></script>
+</head>
+
+<body>
+    <div id="mainBanner">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg0"></div>
+                <div class="swiper-slide bg1"></div>
+                <div class="swiper-slide bg2"></div>
+                <div class="swiper-slide bg3"></div>
+            </div>
+            <div class="btns d-flex abs">
+                <button class="toggle border bi bi-pause-fill"></button> <!-- 혹은 bi-pause -->
+                <div class="swiper-pagination unset-p"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+        </div>
+        <!-- 
+    <script>
+
+    </script>
+ -->
+    </div>
+</body>
+
+</html>
